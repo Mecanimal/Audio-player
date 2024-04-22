@@ -1,0 +1,167 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#a {
+  border: solid 10px black;  
+  background-color: rgb(50, 50, 50);
+  width: 40px;
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  color: white;
+}
+
+body {
+  font-family: sans-serif;
+  background-image: linear-gradient(rgb(78, 134, 134), rgb(66, 66, 66));
+  height: 100vh;
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.darkred {
+  font-family: sans-serif;
+  background-image: linear-gradient(rgb(115, 10, 10), rgb(0, 0, 0));
+  height: 100vh;
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin: 10px auto;
+}
+
+img {
+  border: solid 10px white;
+  margin-top: 30px;
+  width: 400px;
+}
+
+.border2 {
+  border: rgb(rgb(85, 97, 102));
+}
+
+.middlediv {
+  display: flex;
+  width: 110%;
+  margin-top: 30px;
+  justify-content: space-between;
+}
+
+.subdiv {
+  display: flex;
+  flex-direction: column;
+}
+
+#songName {
+  font-weight: bolder;
+  font-size: 150%;
+}
+
+#bandName {
+  color: rgb(255, 255, 255, 0.5);
+}
+
+#button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#button:hover {
+  transform: scale(1.1);
+}
+
+#greenheart {
+  color: rgb(47, 236, 22);
+}
+
+#barraclick {
+  width: 110%;
+}
+
+#barra {
+  width: 110%;
+  height: 5px;
+  background-color: rgb(255, 255, 255, 0.5);
+  margin-top: 20px;
+  border-radius: 99px;
+}
+
+#progress {
+  --progress: 0%;
+  width: var(--progress);
+  height: 5px;
+  background-color: white;
+  border-radius: 99px;
+  z-index: 1;
+}
+
+#timebox {
+  width: 110%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 10px;
+}
+
+.bottomdiv {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%; 
+  cursor: pointer;
+}
+
+.green {
+color: rgb(47, 236, 22) ;
+display: flex;
+align-items: center;
+justify-content: center;
+width: 50px;
+height: 50px;
+border-radius: 50%; 
+cursor: pointer;
+}
+
+.green:hover {
+  transform: scale(1.2);
+}
+
+.icon:hover {
+  transform: scale(1.2);
+}
+
+
+
+
